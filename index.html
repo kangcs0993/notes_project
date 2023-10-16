@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>notes project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styleIndex.css'>
+</head>
+<body>
+    <div class="writeNote">
+        <p id="noteBodyTitle">write note</p>
+        <div id="writeNoteBody">
+            <input id="noteTitle" placeholder="title"><br/>
+            <textarea id="noteBody" placeholder="write note here"></textarea><br/>
+            <input id="noteTags" placeholder="#tags"><br/>
+        </div>
+        
+        <div id="noteButtons">
+            <button onclick="clearNote()" id="clearNote">clear note</button>
+            <a href="./writeNote.html"><button onclick="addNote()" id="addNote">add note</button></a>
+        </div>
+    </div>
+
+    <script src='./js/main.js'></script>
+</body>
+</html>

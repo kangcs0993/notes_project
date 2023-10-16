@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background: rgb(143, 178, 238);
+}
+
+input{
+    border-style: none;
+}
+
+input:focus{
+    border-style: none;
+    background:rgb(180, 200, 233);
+    outline: none;
+}
+
+textarea:focus{
+    border-style: none;
+    background:rgb(180, 200, 233);
+    outline: none;
+}
+
+button{
+    border-style: none;
+}
+
+.writeNote{
+    background: rgb(83, 125, 239);
+    width: 25em;
+    height: 38em;
+    margin: 10em auto;
+}
+
+#noteBodyTitle{
+    text-align: center;
+    padding: 2em;
+    background:rgb(111, 151, 217);
+    color: white;
+}
+
+#writeNoteBody{
+    width: 80%;
+    margin: 2em auto 0;
+}
+
+#writeNoteBody input{
+    width: 90%;
+    padding: 7px;
+    display: block;
+    margin: auto;
+}
+
+#noteBody{
+    padding: 7px;
+    width: 90%;
+    height: 15em;
+    display: block;
+    margin: auto;
+    resize: none;
+}
+
+#noteButtons{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#clearNote{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 8em;
+    height: 3em;
+}
+
+#addNote{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    width: 8em;
+    height: 3em;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>write note</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styleWriteNote.css'>
+</head>
+<body>
+    <a href="./index.html"><div>write note</div></a>
+    
+    <div id="seeNotes">
+        <div id="searchBar">
+            <input id="tagSearch" type="search" placeholder="search by tag">
+        </div>
+
+        <div id="noteDiv">
+            <ul id="notesList">
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="deleteDiv">
+        <button id="deleteAllButton" onclick="deleteNotes()">delete all notes</button>
+    </div>
+
+    <script src="./js/writeNote.js"></script>
+</body>
+</html>

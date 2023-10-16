@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background: rgb(143, 178, 238);
+}
+
+a{
+    text-decoration: none;
+}
+
+a div{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(83, 125, 239);
+    color: white;
+    padding: 3em 0;
+}
+
+input{
+    border-style: none;
+    margin: 5px;
+}
+
+input:focus{
+    border-style: none;
+    background:rgb(180, 200, 233);
+    outline: none;
+}
+
+button{
+    border-style: none;
+}
+
+#seeNotes{
+    margin: 2em auto;
+}
+
+#searchBar{
+    padding: 3px;
+    height: 50px;
+    background: rgb(83, 125, 239);
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    display:flex;
+}
+
+#tagSearch{
+    margin: auto;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    background: rgb(180, 200, 233);
+}
+
+#noteDiv{
+    width: 95%;
+    height: 40%;
+    margin: auto;
+    overflow: auto;
+}
+
+#notesList{
+    width: 100%;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    margin: 1em;
+    padding-top: 1em;
+    display: inline-block;
+    width: 17em;
+    height: 18em;
+    background: rgb(83, 125, 239);
+}
+
+.singleNote input{
+    background: rgb(180, 200, 233);
+    width: 85%;
+    padding: 3px;
+    display: block;
+    margin: .5em auto;
+}
+
+.noteEdit input{
+    width: 85%;
+    padding: 3px;
+    display: block;
+    margin: .5em auto;
+}
+
+.singleNoteBody, .noteBodyEdit{
+    width: 88%;
+    height: 9em;
+    display: block;
+    margin: auto;
+    resize: none;
+    outline: none;
+    border-style: none;
+    text-overflow: ellipsis;
+}
+
+.singleNoteBody{
+    background:rgb(180, 200, 233);
+}
+
+.noteBodyEdit:focus{
+    background:rgb(180, 200, 233);
+}
+
+.singleNote, .noteEdit{
+    width: 90%;
+    margin: auto;
+}
+
+.buttonDiv, .editButtonDiv{
+    width: 90%;
+    padding-top: 1em;
+    margin: auto;
+    position: relative;
+}
+
+.cancelEditButton, .editButton{
+    position: absolute;
+    top: 50%;
+    left: 5.5%;
+    width: 6.5em;
+    height: 1.5em;
+}
+
+.saveEditButton, .deleteButton{
+    position: absolute;
+    top: 50%;
+    right: 5.5%;
+    width: 6.5em;
+    height: 1.5em;
+}
+
+#deleteDiv{
+    margin-top: 20px;
+}
+
+#deleteAllButton{
+    width: 100%;
+    height: 7em;
+    display: block;
+    margin-bottom: 10px;
+    position: static;
+    background: rgb(83, 125, 239);
+    color: white;
+}
