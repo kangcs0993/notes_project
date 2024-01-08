@@ -6,6 +6,7 @@
 
 body{
     background: rgb(143, 178, 238);
+    overflow-x: hidden;
 }
 
 a{
@@ -38,6 +39,7 @@ button{
 
 #seeNotes{
     margin: 2em auto;
+    min-height: 80vh;
 }
 
 #searchBar{
@@ -59,18 +61,25 @@ button{
 }
 
 #noteDiv{
-    width: 95%;
-    height: 40%;
+    width: 100%;
     margin: auto;
-    overflow: auto;
+  
+    text-align: center;
+    align-items: center;
+    display: inline-block;
 }
 
 #notesList{
+  
     width: 100%;
-    margin: auto;
+    display:inline-block;
+    text-align: center;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 li{
+    float:left;
     list-style: none;
     margin: 1em;
     padding-top: 1em;
